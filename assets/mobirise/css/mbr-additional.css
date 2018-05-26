@@ -415,6 +415,9 @@ h6,
 #msg-box8-h p {
   color: #fff;
 }
+#msg-box8-h .mbr-section-title {
+  color: #ffffff;
+}
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }

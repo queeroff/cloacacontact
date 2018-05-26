@@ -48,6 +48,9 @@
           "_styles": {
             ".mbr-section-title, p": {
               "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
             }
           },
           "_params": {
@@ -69,7 +72,7 @@
             "overlayColor": "#00bbb7",
             "overlayOpacity": "0.8"
           },
-          "title": "Ways to reach me:<br>",
+          "title": "Ways to reach me..<br>",
           "text": "",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
           "_tags": [
