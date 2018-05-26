@@ -30,7 +30,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 13,
+    "uniqCompNum": 18,
     "versionPublish": "4.7.6"
   },
   "pages": {
@@ -45,31 +45,51 @@
       },
       "components": [
         {
-          "_inherit": "social-buttons2",
           "_styles": {
-            ".mbr-section-title, .btn-social": {
+            ".mbr-section-title, p": {
               "color": "#fff"
             }
           },
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
+            "paddingTop": "4",
+            "paddingBottom": "3",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/header1-2000x1086.jpg",
-            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/header2-2000x1086.jpg",
+            "parallax": false,
             "bgColorRadio": false,
-            "bgColor": "#2e2e2e",
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
             "overlay": true,
             "overlayColor": "#00bbb7",
-            "overlayOpacity": "0.9"
+            "overlayOpacity": "0.8"
           },
+          "title": "Ways to reach me:<br>",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
           "_tags": [
             "Theme"
           ],
-          "text": "WAYS TO CONTACT ME",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-secondary\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/jaypii\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social btn-warning\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/user/TheJayPii\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-success\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/thecloaca\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-info\" title=\"Pinterest\" target=\"_blank\" href=\"index.html#form1-3\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"mbri-desktop mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" href=\"tel:2149091018\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 24px;\"></span></a>    ",
-          "_name": "social-buttons4",
-          "_anchor": "social-buttons4-c"
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-h"
+        },
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#efec3d"
+          },
+          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span>Instagram</a> <a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span>Twitter</a> <a data-app-btn=\"true\" class=\"btn btn-warning-outline btn-warning\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span>YouTube</a> <a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span>Facebook</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span>Email</a> <a data-app-btn=\"true\" class=\"btn btn-black-outline btn-black\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-megaphone mbr-iconfont mbr-iconfont-btn\"></span>Voicemail</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-g"
         },
         {
           "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
