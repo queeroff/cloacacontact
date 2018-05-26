@@ -30,7 +30,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 18,
+    "uniqCompNum": 19,
     "versionPublish": "4.7.6"
   },
   "pages": {
@@ -87,12 +87,49 @@
             "paddingBottom": "2",
             "bgColor": "#efec3d"
           },
-          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span>Instagram</a> <a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span>Twitter</a> <a data-app-btn=\"true\" class=\"btn btn-warning-outline btn-warning\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span>YouTube</a> <a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span>Facebook</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span>Email</a> <a data-app-btn=\"true\" class=\"btn btn-black-outline btn-black\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-megaphone mbr-iconfont mbr-iconfont-btn\"></span>Voicemail</a>",
+          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://instagram.com/thecloaca\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span>Instagram</a> <a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"https://twitter.com/thecloaca\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span>Twitter</a> <a data-app-btn=\"true\" class=\"btn btn-warning-outline btn-warning\" href=\"https://www.youtube.com/user/TheJayPii\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span>YouTube</a> <a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"https://facebook.com/jaypii\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span>Facebook</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"index.html#form1-3\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span>Email</a> <a data-app-btn=\"true\" class=\"btn btn-black-outline btn-black\" href=\"tel:2149091018\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-megaphone mbr-iconfont mbr-iconfont-btn\"></span>Voicemail</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "buttons1",
           "_anchor": "buttons1-g"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/header2-2000x1086.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#00bbb7",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#00bbb7",
+            "overlayOpacity": "0.8"
+          },
+          "title": "Twitter Feed",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-i"
         },
         {
           "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
@@ -105,7 +142,7 @@
             "google": "",
             "youtube": "https://www.youtube.com/user/TheJayPii",
             "bgColorRadio": true,
-            "bgColor": "#3d8eb9",
+            "bgColor": "#00bbb7",
             "bgImageRadio": false,
             "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
             "overlay": true,
@@ -227,7 +264,7 @@
             "overlayOpacity": 0.6
           },
           "title": "Instagram Feed",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md display-4 btn-secondary\" href=\"#\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Show more</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md display-4 btn-success\" href=\"#\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Show more</a>",
           "display2": "display-2",
           "display4": "display-4",
           "alias": "instagram-feed",
@@ -298,7 +335,7 @@
               "color": "#ffffff"
             },
             ".mbr-section-title": {
-              "color": "#ff3585"
+              "color": "#ffffff"
             },
             "SMALL": {
               "color": "#ffffff"

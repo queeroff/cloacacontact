@@ -418,6 +418,13 @@ h6,
 #msg-box8-h .mbr-section-title {
   color: #ffffff;
 }
+#msg-box8-i .mbr-section-title,
+#msg-box8-i p {
+  color: #fff;
+}
+#msg-box8-i .mbr-section-title {
+  color: #ffffff;
+}
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -486,7 +493,7 @@ h6,
   color: #ffffff;
 }
 #form1-3 .mbr-section-title {
-  color: #ff3585;
+  color: #ffffff;
 }
 #form1-3 SMALL {
   color: #ffffff;
