@@ -552,6 +552,7 @@ p.lead,
 .form-control-label {
   cursor: pointer;
   font-size: 0.875rem;
+  font-color: white;
   margin-bottom: 0.357em;
   padding: 0; }
 
@@ -629,7 +630,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   color: #f28281 !important; }
 
 .text-white {
-  color: #fff !important; }
+  color: #000000 !important; }
 
 .text-black {
   color: #535353 !important; }
